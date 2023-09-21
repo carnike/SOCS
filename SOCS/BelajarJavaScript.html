@@ -1,0 +1,77 @@
+<!DOCTYPE html>   
+<html>   
+<head>  
+<meta name="viewport" content="width=device-width, initial-scale=1">  
+<title>Uas HCI</title>  
+<style>   
+Body {  
+  font-family: Calibri, Helvetica, sans-serif;  
+   
+} 
+.select-box{
+		width: 100%;   
+        margin: 8px 0;  
+        padding: 12px 20px;   
+        display: inline-block;   
+        border: 2px solid black;   
+        box-sizing: border-box;     
+              
+		}
+button {   
+       background-color: orange;   
+       width: 100%;  
+        color: white;   
+        padding: 15px;   
+        margin: 10px 0px;   
+        border: none;   
+        cursor: pointer;   
+         }   
+ form {   
+        border: 3px solid black;   
+    }   
+ input[type=text], input[type=password] {   
+        width: 100%;   
+        margin: 8px 0;  
+        padding: 12px 20px;   
+        display: inline-block;   
+        border: 2px solid black;   
+        box-sizing: border-box;   
+    }  
+ .container {   
+        padding: 25px;   
+         
+    }   
+</style>   
+</head>    
+<body>    
+    <center> <h1> Create Your Alibaba Cloud Account </h1> </center>
+	<center><label>Free Access to Over 50 Products and Up to 12 Months Usage for Elastic Compute Servicel</label></center>	
+    <form>  
+        <div class="container">
+			
+             <select class="select-box" >                               
+                 <option value="Indonesia">Indonesia</option>    
+                 <option value="Amerika">Amerika</option>    
+                 <option value="Malaysia">Malaysia</option>    
+                 <option value="Singapure">Singapure</option>    
+             </select>
+						
+            <input type="text" id="email" placeholder="Enter email" >  
+            <span id="error_email"></span>
+			
+            <input type="password" id="psw" placeholder="Enter Password" >
+			<input type="password" id="psw-repeat" placeholder="confirm Password" > 
+			
+            <button onclick="validtation()">confirm</button>
+			
+            <input type="checkbox" checked="checked"> I hereby agree to the Alibaba Cloud International Websle Membership
+													  Agreement, Privacy Pollcy, Product Terms and Terms of Use, under which I am
+													  contracting with Alibaba Cloud (Singapore) Private Limited.
+               
+              
+        </div>   
+    </form>
+<<script src="UasHCI.js></script>  >
+
+</body>     
+</html>
